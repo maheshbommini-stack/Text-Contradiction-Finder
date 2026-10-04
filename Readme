@@ -1,0 +1,174 @@
+🔎 Text Contradiction Finder
+
+📌 Project Overview
+
+Text Contradiction Finder is a web-based Text Analysis application that compares two statements and identifies whether they are contradictory, related/agreeing, possibly conflicting, or unrelated.
+
+The application uses rule-based Natural Language Processing (NLP) techniques to analyze words, negations, opposite terms, and numerical values.
+
+---
+
+🎯 Objective
+
+The main objective of this project is to demonstrate how text can be analyzed and compared to identify relationships between two different statements.
+
+---
+
+✨ Features
+
+- Compare two text statements
+- Detect opposite words
+- Detect negative statements
+- Identify common keywords
+- Compare numerical values
+- Detect possible contradictions
+- Identify related or agreeing statements
+- Identify unrelated statements
+- Provide an explanation for the detected relationship
+- Responsive interface for mobile and desktop
+
+---
+
+🧠 How It Works
+
+The application follows a rule-based text analysis process:
+
+Two Statements
+      ↓
+Text Cleaning
+      ↓
+Word Extraction
+      ↓
+Stop-word Removal
+      ↓
+Common Word Detection
+      ↓
+Opposite Word Detection
+      ↓
+Negation Detection
+      ↓
+Number Comparison
+      ↓
+Relationship Analysis
+      ↓
+Final Result
+
+The system can produce results such as:
+
+- 🔴 Contradiction
+- 🟠 Possible Conflict
+- 🟢 Related / Agreeing
+- ⚪ Unrelated
+
+---
+
+🔍 Example
+
+Statement 1
+
+«The library is open today.»
+
+Statement 2
+
+«The library is closed today.»
+
+Result
+
+🔴 CONTRADICTION
+
+The application detects the opposing terms:
+
+open ↔ closed
+
+---
+
+🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Rule-based NLP techniques
+
+No external API or backend server is required.
+
+---
+
+📂 Project Structure
+
+Text-Contradiction-Finder/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+---
+
+▶️ How to Run
+
+1. Download or clone the repository.
+2. Open "index.html" in a web browser.
+3. Enter the first statement.
+4. Enter the second statement.
+5. Click Analyze Relationship.
+6. View the detected relationship and analysis.
+
+The application can also be deployed using GitHub Pages.
+
+---
+
+🧪 Sample Test Cases
+
+Statement 1| Statement 2| Expected Result
+The library is open today.| The library is closed today.| Contradiction
+Students can submit assignments online.| Students cannot submit assignments online.| Contradiction
+The library has 5000 books.| The library has 8000 books.| Possible Conflict
+Students can access the library.| Students can use the library.| Related / Agreeing
+The college has a computer laboratory.| The hostel provides breakfast.| Unrelated
+
+---
+
+🎓 Academic Relevance
+
+This project demonstrates concepts from Text and Speech Analysis, particularly:
+
+- Text preprocessing
+- Tokenization
+- Stop-word removal
+- Keyword extraction
+- Negation detection
+- Lexical relationship analysis
+- Rule-based Natural Language Processing
+- Text comparison
+
+---
+
+🚀 Future Improvements
+
+The application can be improved by:
+
+- Using machine-learning-based Natural Language Inference
+- Adding semantic similarity analysis
+- Supporting multiple languages
+- Detecting more types of contradictions
+- Using transformer-based NLP models
+- Adding sentence-level highlighting
+- Providing confidence scores
+
+---
+
+📌 Conclusion
+
+Text Contradiction Finder demonstrates how computational text analysis can be used to compare statements and identify relationships between them.
+
+Although the current version uses a rule-based approach, it provides a simple foundation for understanding more advanced Natural Language Inference and semantic text comparison systems.
+
+---
+
+👨‍💻 Project Type
+
+Text and Speech Analysis — Application 2
+
+Application: Text Contradiction Finder
+Domain: Natural Language Processing / Text Analysis
+Implementation: Frontend Web Application
