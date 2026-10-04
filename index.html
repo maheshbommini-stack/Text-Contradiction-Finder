@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Text Contradiction Finder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header>
+            <div class="badge">TEXT ANALYSIS</div>
+
+            <h1>🔎 Contradiction Finder</h1>
+
+            <p>
+                Compare two statements and discover whether
+                they agree, conflict, or discuss different ideas.
+            </p>
+        </header>
+
+        <main>
+
+            <section class="input-grid">
+
+                <div class="input-card">
+
+                    <label for="statement1">
+                        Statement 1
+                    </label>
+
+                    <textarea
+                        id="statement1"
+                        placeholder="Example: The library is open today."
+                    ></textarea>
+
+                </div>
+
+
+                <div class="input-card">
+
+                    <label for="statement2">
+                        Statement 2
+                    </label>
+
+                    <textarea
+                        id="statement2"
+                        placeholder="Example: The library is closed today."
+                    ></textarea>
+
+                </div>
+
+            </section>
+
+
+            <button class="analyze-btn" onclick="analyzeStatements()">
+                Analyze Relationship
+            </button>
+
+
+            <section id="result" class="result hidden">
+
+                <div id="resultIcon" class="result-icon"></div>
+
+                <h2 id="resultTitle"></h2>
+
+                <p id="resultDescription"></p>
+
+
+                <div class="analysis-grid">
+
+                    <div class="analysis-card">
+
+                        <span>COMMON TOPICS</span>
+
+                        <div id="commonWords">
+                            —
+                        </div>
+
+                    </div>
+
+
+                    <div class="analysis-card">
+
+                        <span>CONFLICTS</span>
+
+                        <div id="conflicts">
+                            —
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="explanation">
+
+                    <h3>💡 Analysis</h3>
+
+                    <p id="explanationText"></p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
